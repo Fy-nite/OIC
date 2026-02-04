@@ -1,0 +1,22 @@
+module CProgram version 1.0.0
+// Program class
+class Program {
+    method Main() -> int32 {
+        local y: int32
+        local x: int32
+
+        ldc.i4 10
+        ldc.i4 10
+        ldc.i4 100
+        ldc.i4 50
+        ldc.i4 16711935
+        call OIC.Program.FillRect(int32, int32, int32, int32, int32) -> int32
+        pop
+        ldloc y
+        ldc.i4 200
+        ceq
+        while  // TODO: Implement proper formatting
+        ldc.i4 0
+        ret
+    }
+}

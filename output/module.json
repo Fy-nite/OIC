@@ -1,0 +1,141 @@
+{
+  "name": "CProgram",
+  "version": "1.0.0",
+  "metadata": {},
+  "types": [
+    {
+      "kind": "Class",
+      "name": "Program",
+      "access": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "interfaces": [],
+      "baseInterfaces": [],
+      "genericParameters": [],
+      "fields": [],
+      "methods": [
+        {
+          "name": "FillRect",
+          "returnType": "void",
+          "access": "Public",
+          "isStatic": true,
+          "isVirtual": false,
+          "isOverride": false,
+          "isAbstract": false,
+          "isConstructor": false,
+          "parameters": [
+            {
+              "name": "x",
+              "type": "int64"
+            },
+            {
+              "name": "y",
+              "type": "int64"
+            },
+            {
+              "name": "w",
+              "type": "int64"
+            },
+            {
+              "name": "h",
+              "type": "int64"
+            },
+            {
+              "name": "color",
+              "type": "int64"
+            }
+          ],
+          "localVariables": [],
+          "instructionCount": 1,
+          "instructions": [
+            {
+              "opCode": "ret"
+            }
+          ]
+        },
+        {
+          "name": "Main",
+          "returnType": "int32",
+          "access": "Public",
+          "isStatic": true,
+          "isVirtual": false,
+          "isOverride": false,
+          "isAbstract": false,
+          "isConstructor": false,
+          "parameters": [],
+          "localVariables": [],
+          "instructionCount": 9,
+          "instructions": [
+            {
+              "opCode": "ldc",
+              "operand": {
+                "value": "10",
+                "type": "int32"
+              }
+            },
+            {
+              "opCode": "ldc",
+              "operand": {
+                "value": "10",
+                "type": "int32"
+              }
+            },
+            {
+              "opCode": "ldc",
+              "operand": {
+                "value": "100",
+                "type": "int32"
+              }
+            },
+            {
+              "opCode": "ldc",
+              "operand": {
+                "value": "50",
+                "type": "int32"
+              }
+            },
+            {
+              "opCode": "ldc",
+              "operand": {
+                "value": "16711935",
+                "type": "int32"
+              }
+            },
+            {
+              "opCode": "call",
+              "operand": {
+                "method": {
+                  "declaringType": "OCRuntime.PixelBindings",
+                  "name": "FillRect",
+                  "returnType": "int32",
+                  "parameterTypes": [
+                    "int32",
+                    "int32",
+                    "int32",
+                    "int32",
+                    "int32"
+                  ]
+                }
+              }
+            },
+            {
+              "opCode": "pop"
+            },
+            {
+              "opCode": "ldc",
+              "operand": {
+                "value": "0",
+                "type": "int32"
+              }
+            },
+            {
+              "opCode": "ret"
+            }
+          ]
+        }
+      ],
+      "properties": []
+    }
+  ],
+  "functions": []
+}

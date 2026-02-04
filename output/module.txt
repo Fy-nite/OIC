@@ -1,0 +1,8 @@
+Module: CProgram
+Version: 1.0.0
+
+Types (1):
+  class Program
+    Methods:
+      Public static void FillRect(int64 x, int64 y, int64 w, int64 h, int64 color) [1 instructions]
+      Public static int32 Main() [9 instructions]

@@ -1,0 +1,13 @@
+module CProgram version 1.0.0
+// Program class
+class Program {
+    method Main() -> int32 {
+        local i: int32
+
+        ldloc i
+        ldc.i4 2
+        while  // TODO: Implement proper formatting
+        ldc.i4 0
+        ret
+    }
+}

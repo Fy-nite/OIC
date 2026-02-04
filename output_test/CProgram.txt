@@ -1,0 +1,7 @@
+Module: CProgram
+Version: 1.0.0
+
+Types (1):
+  class Program
+    Methods:
+      Public static int32 Main() [9 instructions]

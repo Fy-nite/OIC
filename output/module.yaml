@@ -1,0 +1,16 @@
+module: CProgram
+version: 1.0.0
+types:
+  - name: Program
+    kind: Class
+    namespace: null
+    access: Public
+    abstract: False
+sealed: False
+    methods:
+      - name: FillRect
+        returnType: void
+        parameters: 5
+      - name: Main
+        returnType: int32
+        parameters: 0

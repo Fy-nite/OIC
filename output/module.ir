@@ -1,0 +1,19 @@
+module CProgram version 1.0.0
+// Program class
+class Program {
+    method FillRect(x: int64, y: int64, w: int64, h: int64, color: int64) -> void {
+        ret
+    }
+
+    method Main() -> int32 {
+        ldc.i4 10
+        ldc.i4 10
+        ldc.i4 100
+        ldc.i4 50
+        ldc.i4 16711935
+        call OCRuntime.PixelBindings.FillRect(int32, int32, int32, int32, int32) -> int32
+        pop
+        ldc.i4 0
+        ret
+    }
+}

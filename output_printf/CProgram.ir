@@ -1,0 +1,11 @@
+module CProgram version 1.0.0
+// Program class
+class Program {
+    method Main() -> int32 {
+        ldstr ""hello\n""
+        call System.Console.WriteLine(System.string) -> void
+        pop
+        ldc.i4 0
+        ret
+    }
+}
